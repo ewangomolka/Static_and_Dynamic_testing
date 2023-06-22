@@ -23,6 +23,7 @@ class CardGame:
 # First problem with this test is that the test definition is not indented within the Card Class thus the test will
 # not run.
 # Second test is that the total variable is not defined
+# Thirdly is that the return is inside the loop it should be outside of the loop
 def cards_total(self, cards):
     total = 0
     for card in cards:
