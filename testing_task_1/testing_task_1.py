@@ -24,6 +24,7 @@ class CardGame:
 # not run.
 # Second test is that the total variable is not defined
 # Thirdly is that the return is inside the loop it should be outside of the loop
+# and fourth is that the total variable at the end of the code needs to be stringified using str(total)
 def cards_total(self, cards):
     total = 0
     for card in cards:
